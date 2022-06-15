@@ -1,0 +1,25 @@
+<div class="cover container">
+    <div class="cover-content">
+        {{#if @site.icon}}
+            <div class="cover-icon">
+                <img class="cover-icon-image" src="{{@site.icon}}" alt="{{@site.title}}">
+            </div>
+        {{/if}}
+
+        {{#if @site.description}}
+            <div class="cover-description">{{@site.description}}</div>
+        {{/if}}
+
+        {{#unless @member}}
+            <div class="cover-cta">
+                <form data-members-form="subscribe">
+                    <div class="cta-container">
+                        <input data-members-email type="email" required="true" placeholder="Add your email here..."/>
+                        <button class="button members-subscribe" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+        {{/unless}}
+    </div>
+</div>

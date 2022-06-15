@@ -1,0 +1,51 @@
+.cover {
+    margin-top: 4.5rem;
+}
+
+.cover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cover-icon {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.cover-icon-image {
+    width: 150px;
+}
+
+.cover-icon-image.white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.cover-description {
+    font-size: 1.7rem;
+}
+
+.cover-cta {
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.cta-container {
+    display: flex;
+}
+
+.cover-cta form input {
+    width: inherit;
+    border-radius: 2px;
+    height: 36px
+}
+
+.cover-cta .button {
+    margin: 0 0.5rem;
+}
