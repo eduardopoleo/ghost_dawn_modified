@@ -38,3 +38,7 @@
 .share-link-twitter {
     background-color: var(--twitter-color);
 }
+
+#ghost-portal-root {
+    display: none;
+}
