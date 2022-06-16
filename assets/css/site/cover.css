@@ -36,6 +36,22 @@
 
 }
 
+.subscribe-success {
+    display: none;
+}
+
+.subscribe-error {
+    display: none;
+}
+
+.error .subscribe-error {
+    display: inherit;
+    color: red;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
 .cta-container {
     display: flex;
 }
